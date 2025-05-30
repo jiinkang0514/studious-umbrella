@@ -1,0 +1,44 @@
+h2 {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box
+    margin: 0;
+    padding: 0;
+}
+
+html, 
+body {
+    height: 100%;
+    background-color: #141414;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+}
+
+.output_component{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.city_name, .temperature{
+    text-align: center;
+    font-size: 3em;
+    line-height: 1.2em;
+    color: white;
+}
+
